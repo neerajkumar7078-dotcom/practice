@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "demo-resources"   
-    storage_account_name = "demostorage2"
-    container_name       = "prod-tfstate"    
+    resource_group_name  = "demo-resource"   
+    storage_account_name = "demostorage19"
+    container_name       = "demo-container"    
     key                  = "terraform.tfstate"                          
   }
 }
